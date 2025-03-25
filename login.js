@@ -80,3 +80,11 @@ const main = document.getElementById('main');
       signInButton.addEventListener('click',() => {
        main.classList.remove("right-panel-active");
       })
+
+
+
+const botao = document.querySelector('#Botao')
+const vazio = document.querySelector('#vazio')
+botao.addEventListener('click', function() {
+    vazio.innerText = 'Hello World'
+})
